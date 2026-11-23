@@ -1,0 +1,25 @@
+{
+  "synthetic": true,
+  "n": 40000,
+  "split": {
+    "train": 23354,
+    "validation": 6717,
+    "test": 9929
+  },
+  "threshold_selected_on_validation": 0.13,
+  "maximum_validation_alert_rate": 0.1,
+  "test": {
+    "fraud_rate": 0.11179373552220767,
+    "roc_auc": 0.7664346737030715,
+    "average_precision": 0.3071556076816197,
+    "brier": 0.0932976292700654,
+    "cost_per_transaction_eur": 11.817101420082587,
+    "always_approve_cost_eur": 16.76906032833115,
+    "alert_rate": 0.09900292073723437
+  },
+  "drift": {
+    "fraud_rate_train": 0.057763124090091635,
+    "fraud_rate_test": 0.11179373552220767,
+    "merchant_risk_psi": 0.002326287379289701
+  }
+}
